@@ -25,7 +25,7 @@ body {
     min-width: 550px;
     color: var(--color-main);
     background: var(--color-bkg);
-    font-family: cursor, monospace, monospace, courier;
+    font-family:cursor, courier, monospace, monospace, courier;
     overflow-x: hidden;
   }
   ::selection {
