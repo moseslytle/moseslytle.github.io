@@ -57,7 +57,8 @@ function update() {
        
         return;
     }
-
+    board = document.getElementById("board");
+    context = board.getContext("2d");
     context.fillStyle="#000";
     context.fillRect(0, 0, board.width, board.height);
 
